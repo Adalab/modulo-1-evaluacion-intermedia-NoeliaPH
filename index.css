@@ -31,6 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   word-spacing: 20px;
+  text-decoration: none;
 }
 .main {
   background-color: var(--colorfondo);
@@ -51,10 +52,14 @@ body {
   .menu {
     font-size: 16px;
     position: relative;
-
     margin-right: 30px;
   }
   .main {
     font-size: 40px;
+  }
+  .img {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }

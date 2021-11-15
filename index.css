@@ -30,6 +30,7 @@ body {
   font-size: 16px;
   display: flex;
   justify-content: space-between;
+  word-spacing: 20px;
 }
 .main {
   background-color: var(--colorfondo);
@@ -42,8 +43,18 @@ body {
   color: white;
   font-weight: bold;
 }
-@media all and(min-width: 768px) {
+@media all and (min-width: 768px) {
   .header {
     flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu {
+    font-size: 16px;
+    position: relative;
+
+    margin-right: 30px;
+  }
+  .main {
+    font-size: 40px;
   }
 }

@@ -1,0 +1,26 @@
+:root {
+  --colortextomenu: #4a4a4a;
+  --colorfondo: #3cdbc0;
+  --colortextocreando: #ffffff;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.header {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main {
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,16 +1,19 @@
 :root {
-  --colortextomenu: #4a4a4a;
-  --colorfondo: #3cdbc0;
-  --colortextocreando: #ffffff;
+  --colortextmenu: #4a4a4a;
+  --colorbackground: #3cdbc0;
+  --colortextmain: #ffffff;
 }
 * {
   padding: 0%;
   margin: 0%;
+  box-sizing: border-box;
 }
 body {
   font-family: "Rubik", sans-serif;
 }
 .header {
+  text-transform: uppercase;
+  list-style: none;
   background-color: white;
   position: fixed;
   top: 0;
@@ -27,21 +30,28 @@ body {
   margin-bottom: 10px;
 }
 .menu {
+  list-style-type: none;
   font-size: 16px;
   display: flex;
-  justify-content: space-between;
-  word-spacing: 20px;
-  text-decoration: none;
 }
+
+.link-menu {
+  padding: 0px 10px 13px 10px;
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
 .main {
-  background-color: var(--colorfondo);
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  background-color: var(--colorbackground);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  color: white;
+  color: var(--colortextmain);
   font-weight: bold;
 }
 @media all and (min-width: 768px) {
